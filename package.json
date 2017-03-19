@@ -1,0 +1,30 @@
+{
+  "name": "footwork.namespace",
+  "version": "1.0.0",
+  "description": "Javascript messaging/communication library.",
+  "main": "index.js",
+  "author": "Jonathan Newman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/footworkjs/footwork,namespace.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "footwork-common": "footworkjs/footwork-common",
+    "gulp": "^3.9.1",
+    "gulp-file": "^0.3.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "tko.observable": "knockout/tko.observable",
+    "tko.utils": "knockout/tko.utils"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
